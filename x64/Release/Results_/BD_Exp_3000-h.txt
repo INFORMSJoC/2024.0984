@@ -1,0 +1,90 @@
+Instance: radar-3000-10-a-1.lat;
+RootUpperBound:-25970.957993;RootLowerBound:-25970.962686;RootGap:0.0000;RootRuntime:0.0280;
+Objval:-25970.957993;Gap:0.0000;TotalRuntime:0.0280;Nodes:0;Status:102;
+Instance: radar-3000-10-a-2.lat;
+RootUpperBound:-24835.477613;RootLowerBound:-24845.250539;RootGap:0.0004;RootRuntime:0.4030;
+Objval:-24835.477613;Gap:0.0004;TotalTime:1000.0240;Nodes:760346;Status:107
+Instance: radar-3000-10-a-3.lat;
+RootUpperBound:-25544.892901;RootLowerBound:-25548.813724;RootGap:0.0002;RootRuntime:0.2130;
+Objval:-25544.892901;Gap:0.0002;TotalTime:1000.0250;Nodes:1087634;Status:107
+Instance: radar-3000-10-a-4.lat;
+RootUpperBound:-26126.344685;RootLowerBound:-26129.151419;RootGap:0.0001;RootRuntime:0.2570;
+Objval:-26126.344685;Gap:0.0001;TotalTime:1000.0820;Nodes:623903;Status:107
+Instance: radar-3000-10-a-5.lat;
+RootUpperBound:-22806.855048;RootLowerBound:-22827.032013;RootGap:0.0009;RootRuntime:0.5500;
+Objval:-22806.855048;Gap:0.0009;TotalTime:1000.0420;Nodes:966003;Status:107
+Instance: radar-3000-10-a-6.lat;
+RootUpperBound:-23674.634078;RootLowerBound:-23684.011091;RootGap:0.0004;RootRuntime:0.2840;
+Objval:-23674.634078;Gap:0.0004;TotalTime:1000.0230;Nodes:706215;Status:107
+Instance: radar-3000-10-a-7.lat;
+RootUpperBound:-24610.855307;RootLowerBound:-24611.144471;RootGap:0.0000;RootRuntime:0.0520;
+Objval:-24610.855307;Gap:0.0000;TotalRuntime:0.0520;Nodes:0;Status:102;
+Instance: radar-3000-10-a-8.lat;
+RootUpperBound:-29254.272065;RootLowerBound:-29254.330727;RootGap:0.0000;RootRuntime:0.0300;
+Objval:-29254.272065;Gap:0.0000;TotalRuntime:0.0300;Nodes:0;Status:102;
+Instance: radar-3000-10-a-9.lat;
+RootUpperBound:-27187.854679;RootLowerBound:-27189.121276;RootGap:0.0000;RootRuntime:0.0450;
+Objval:-27187.854679;Gap:0.0000;TotalRuntime:0.0450;Nodes:0;Status:102;
+Instance: radar-3000-10-a-10.lat;
+RootUpperBound:-24153.604537;RootLowerBound:-24168.594999;RootGap:0.0006;RootRuntime:0.4360;
+Objval:-24153.604537;Gap:0.0006;TotalTime:1000.1480;Nodes:857402;Status:107
+Instance: radar-3000-20-a-1.lat;
+RootUpperBound:-52359.553079;RootLowerBound:-52370.257537;RootGap:0.0002;RootRuntime:0.3910;
+Objval:-52359.553079;Gap:0.0002;TotalTime:1000.0390;Nodes:815000;Status:107
+Instance: radar-3000-20-a-2.lat;
+RootUpperBound:-49501.831380;RootLowerBound:-49511.294956;RootGap:0.0002;RootRuntime:0.4470;
+Objval:-49501.831380;Gap:0.0002;TotalTime:1000.0350;Nodes:670979;Status:107
+Instance: radar-3000-20-a-3.lat;
+RootUpperBound:-50868.911508;RootLowerBound:-50871.934817;RootGap:0.0001;RootRuntime:0.0420;
+Objval:-50868.911508;Gap:0.0001;TotalRuntime:0.0420;Nodes:0;Status:102;
+Instance: radar-3000-20-a-4.lat;
+RootUpperBound:-57229.732371;RootLowerBound:-57230.498313;RootGap:0.0000;RootRuntime:0.0390;
+Objval:-57229.732371;Gap:0.0000;TotalRuntime:0.0390;Nodes:0;Status:102;
+Instance: radar-3000-20-a-5.lat;
+RootUpperBound:-55544.221022;RootLowerBound:-55544.228275;RootGap:0.0000;RootRuntime:0.0430;
+Objval:-55544.221022;Gap:0.0000;TotalRuntime:0.0430;Nodes:0;Status:102;
+Instance: radar-3000-20-a-6.lat;
+RootUpperBound:-55453.696105;RootLowerBound:-55454.743592;RootGap:0.0000;RootRuntime:0.0430;
+Objval:-55453.696105;Gap:0.0000;TotalRuntime:0.0430;Nodes:0;Status:102;
+Instance: radar-3000-20-a-7.lat;
+RootUpperBound:-52317.985737;RootLowerBound:-52325.502012;RootGap:0.0001;RootRuntime:0.3550;
+Objval:-52317.985737;Gap:0.0001;TotalTime:1000.0110;Nodes:1592128;Status:107
+Instance: radar-3000-20-a-8.lat;
+RootUpperBound:-56111.622524;RootLowerBound:-56113.784651;RootGap:0.0000;RootRuntime:0.0440;
+Objval:-56111.622524;Gap:0.0000;TotalRuntime:0.0440;Nodes:0;Status:102;
+Instance: radar-3000-20-a-9.lat;
+RootUpperBound:-50210.920175;RootLowerBound:-50228.592623;RootGap:0.0004;RootRuntime:0.4290;
+Objval:-50210.920175;Gap:0.0004;TotalTime:1000.0160;Nodes:859200;Status:107
+Instance: radar-3000-20-a-10.lat;
+RootUpperBound:-49994.945750;RootLowerBound:-50027.146306;RootGap:0.0006;RootRuntime:0.6450;
+Objval:-49994.945750;Gap:0.0006;TotalTime:1000.0410;Nodes:882809;Status:107
+Instance: radar-3000-30-a-1.lat;
+RootUpperBound:-78710.949842;RootLowerBound:-78734.295854;RootGap:0.0003;RootRuntime:0.6560;
+Objval:-78710.949842;Gap:0.0003;TotalTime:1000.0320;Nodes:957822;Status:107
+Instance: radar-3000-30-a-2.lat;
+RootUpperBound:-77291.715508;RootLowerBound:-77309.895669;RootGap:0.0002;RootRuntime:0.4690;
+Objval:-77291.715508;Gap:0.0002;TotalTime:1000.0450;Nodes:776397;Status:107
+Instance: radar-3000-30-a-3.lat;
+RootUpperBound:-80830.331565;RootLowerBound:-80836.054318;RootGap:0.0001;RootRuntime:0.0700;
+Objval:-80830.331565;Gap:0.0001;TotalRuntime:0.0700;Nodes:0;Status:102;
+Instance: radar-3000-30-a-4.lat;
+RootUpperBound:-79879.889867;RootLowerBound:-79891.292724;RootGap:0.0001;RootRuntime:0.8040;
+Objval:-79879.889867;Gap:0.0001;TotalTime:1000.0260;Nodes:823540;Status:107
+Instance: radar-3000-30-a-5.lat;
+RootUpperBound:-84914.742182;RootLowerBound:-84919.584450;RootGap:0.0001;RootRuntime:0.0660;
+Objval:-84914.742182;Gap:0.0001;TotalRuntime:0.0660;Nodes:0;Status:102;
+Instance: radar-3000-30-a-6.lat;
+RootUpperBound:-86558.970263;RootLowerBound:-86559.356224;RootGap:0.0000;RootRuntime:0.0400;
+Objval:-86558.970263;Gap:0.0000;TotalRuntime:0.0400;Nodes:0;Status:102;
+Instance: radar-3000-30-a-7.lat;
+RootUpperBound:-78485.398568;RootLowerBound:-78497.641489;RootGap:0.0002;RootRuntime:0.5700;
+Objval:-78485.398568;Gap:0.0002;TotalTime:1000.0160;Nodes:1417907;Status:107
+Instance: radar-3000-30-a-8.lat;
+RootUpperBound:-87256.649006;RootLowerBound:-87256.704644;RootGap:0.0000;RootRuntime:0.0510;
+Objval:-87256.649006;Gap:0.0000;TotalRuntime:0.0510;Nodes:0;Status:102;
+Instance: radar-3000-30-a-9.lat;
+RootUpperBound:-80970.528257;RootLowerBound:-80981.957976;RootGap:0.0001;RootRuntime:0.5620;
+Objval:-80970.528257;Gap:0.0001;TotalTime:1000.0390;Nodes:1325641;Status:107
+Instance: radar-3000-30-a-10.lat;
+RootUpperBound:-84352.587466;RootLowerBound:-84355.633033;RootGap:0.0000;RootRuntime:0.0490;
+Objval:-84352.587466;Gap:0.0000;TotalRuntime:0.0490;Nodes:0;Status:102;

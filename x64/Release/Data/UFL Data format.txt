@@ -1,0 +1,16 @@
+Data format
+The presented instances are stored in two basic formats. We generally assume that n is the number of facilities and m the number of cities.
+
+The first line consists of 'FILE: ' and the name of the file. In the next line n, m and 0 are denoted:
+[n] [m] 0
+The next n lines consist of the number of the facility, the opening cost and the connetion cost to the cities.
+So for facility i (i = 1, ... , n) we have
+[i] [opening cost] [cost of conneting city j to facility i] (j = 1, ... ,m)
+
+Example: n = 4, m = 3
+FILE: Exapmle.txt
+4 3 0
+1 300 130 120 80
+2 400 140 100 50
+3 150 130 90 140
+4 200 100 120 150

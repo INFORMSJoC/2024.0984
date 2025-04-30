@@ -1,0 +1,13 @@
+﻿  BendersDecomposition.c
+C:\Users\Young\Documents\GitHub\Perspective-Benders-Decomposition\UFL\Src\BendersDecomposition.c(219,22): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+  Main.c
+  MatHeuristic.c
+  PerspectiveCut.c
+  ReadData.c
+  SOCP.c
+  正在生成代码
+  38 of 40 functions (95.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  UFL.vcxproj -> C:\Users\Young\Documents\GitHub\Perspective-Benders-Decomposition\x64\Release\UFL.exe

@@ -1,0 +1,41 @@
+This is a simple generator for Sensor Placement Problem (SPP) instances.
+The SSP has the MIQP formulation
+
+   min \sum_{i = 1}^n a_i x_i^2 + c_i y_i
+
+       \sum_{i = 1}^n x_i = 1
+
+       0 <= x_i <= y_i    i = 1, ..., n
+
+Accordingly, the format of the instances is
+
+n
+c_1
+...
+c_n
+a_1
+...
+a_n
+
+The generator generates two random instances at once, the "a" one with
+large quadratic costs w.r.t. fixed costs, and the "b" one with "small"
+quadratic costs w.r.t. fixed costs. Costs are generated as Gaussian
+random numbers.
+
+Usage of the generator is
+
+gauss <q> <Coeff> <nrand>
+
+where
+
+  q      is the number of sensors
+
+  Coeff  is the cost multiplicative factor
+
+  nrand  is the "name" of the instance (appears in the filename)
+
+This generator has been developed by Enrico Grande. It is free software,
+and as such it can be freely modified and redistributed, provided that 
+notice of the original authorship is retained. The author is not
+responsible and liable for any damage or loss however caused from or
+attributable to this software: no gain, no pain.

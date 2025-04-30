@@ -1,0 +1,43 @@
+Data format
+The presented instances are stored in two basic formats. We generally assume that n is the number of facilities and m the number of cities.
+
+1. ORLIB-cap format
+In the ORLIB-cap format it is possible to store instances for the uncapacitated and capacitated facility location problem. The first line of a file consists n and m:
+[n] [m]
+Then the next n lines consist of the opening cost and the capacity of the corresponding facility.
+So for each facility i: (i = 1 ,..., n):
+[capacity] [opening cost]
+In the following the numbers for the cities are the demand and the connections to all facilities.
+So for each city j (j = 1, ... ,m):
+[demand of j]
+[cost of allocating all demand of j to facility i] (i = 1,...,n)
+
+Example: uncapacitated n = 4, m = 3
+4 3
+0 300
+0 400
+0 150
+0 200
+0
+130 140 130 100
+0
+120 100 90 120
+0
+80 50 140 150
+
+
+2. Simple format
+The simple format is only suitable for instances of the uncapacitated facility location problem.
+The first line consists of 'FILE: ' and the name of the file. In the next line n, m and 0 are denoted:
+[n] [m] 0
+The next n lines consist of the number of the facility, the opening cost and the connetion cost to the cities.
+So for facility i (i = 1, ... , n) we have
+[i] [opening cost] [cost of conneting city j to facility i] (j = 1, ... ,m)
+
+Example: n = 4, m = 3
+FILE: Exapmle.txt
+4 3 0
+1 300 130 120 80
+2 400 140 100 50
+3 150 130 90 140
+4 200 100 120 150

@@ -1,0 +1,18 @@
+Instance: s02_100.rdr;
+RootUpperBound:16018.008748;RootLowerBound:15993.080139;RootGap:0.0016;RootRuntime:0.6480;
+Objval:16018.008703;Gap:0.0000;TotalTime:11.2080;Nodes:266;Status:102;
+Instance: s03_100.rdr;
+RootUpperBound:34489068.601065;RootLowerBound:34489068.154526;RootGap:0.0000;RootRuntime:0.1450;
+Objval:34489068.601065;Gap:0.0000;TotalTime:0.1450;Nodes:0;Status:102;
+Instance: s04_100.rdr;
+RootUpperBound:248.000000;RootLowerBound:234.892059;RootGap:0.0529;RootRuntime:0.6380;
+Objval:237.421356;Gap:0.0000;TotalTime:5.3200;Nodes:128;Status:102;
+Instance: s05_100.rdr;
+RootUpperBound:539.000000;RootLowerBound:528.472224;RootGap:0.0195;RootRuntime:0.5640;
+Objval:539.000000;Gap:0.0000;TotalTime:4.9460;Nodes:124;Status:102;
+Instance: s06_100.rdr;
+RootUpperBound:84.000005;RootLowerBound:84.000001;RootGap:0.0000;RootRuntime:0.0880;
+Objval:84.000005;Gap:0.0000;TotalTime:0.0880;Nodes:0;Status:102;
+Instance: s07_100.rdr;
+RootUpperBound:278.249782;RootLowerBound:265.998775;RootGap:0.0440;RootRuntime:0.6720;
+Objval:270.999994;Gap:0.0000;TotalTime:4.1690;Nodes:103;Status:102;
