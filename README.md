@@ -42,16 +42,37 @@ The implementation focuses on solving two classes of fixed-charge nonlinear reso
 
 ## Data
 
-- GSPP instances are sourced from the [SPP instance library](https://commalab.di.unipi.it/datasets/RDR/).
-- GUFLP instances are sourced from the [UFL benchmark library](https://resources.mpi-inf.mpg.de/departments/d1/projects/benchmarks/UflLib/).
+- The GSPP instances are sourced from the [SPP instance library](https://commalab.di.unipi.it/datasets/RDR/).
+- The GUFLP instances are sourced from the [UFL benchmark library](https://resources.mpi-inf.mpg.de/departments/d1/projects/benchmarks/UflLib/).
 
-Please refer to the original websites or our paper for details about the instance authors and sources. The same instance files are also available in the `./x64/Release/Data` directory for convenience.
+Please refer to the original websites or our paper for detailed information about the instance authors and sources.
+
+Due to potential licensing issues related to redistributing benchmark instances, we do **not** include the actual instance files in the `Data` directories of each subproject. Instead, users can download the datasets directly from the original websites and place them into the appropriate folders. For example:
+
+- Copy the `2000-h` series instances for the SPP problem into `./SP/Data/2000-h/`
+- Copy the `ga250` series instances for the UFL problem into `./UFL/Data/`
+
+This setup will allow the code to run without modification.
+
+
+## Code Structure
+
+The repository contains two subdirectories, each corresponding to a problem:
+
+- **`SP/`**: Contains source code for solving the GSPP.
+- **`UFL/`**: Contains source code for solving the GUFLP.
+
+Each subdirectory includes the following folders:
+
+- **`Data/`**: Directory for storing the instance files required to run the models.
+- **`Input/`**: Contains text files, each of which can be passed as the `input_file_name` argument to the executable. These files list the instances of the same size, including the number of instances and their filenames.
+- **`Results/`**: Each file here can be used as the `output_file_name` argument. The directory stores solution results for each group of instances.
+- **`Src/`**: Contains the C source code for the corresponding problem.
 
 ## Dependencies
 
 - **C/C++ Compiler**
   - Windows: Visual Studio 2022 (preferred)
-  - Linux: GCC (usually pre-installed)
 - **IBM ILOG CPLEX [version 22.1.1]**
   - A general mixed integer programming solver
   - Called through the program using its **Callable Library API**
@@ -109,17 +130,19 @@ Execute the program as follows:
 
 To replicate the experimental results as reported in the paper:
 
-1. Navigate to the executable directory:
+1. Copy all instance files from `./SP/Data/` and `./UFL/Data/` into the shared folder `./x64/Release/Data/`.
+
+2. Navigate to the executable directory:
 ```
 cd ./x64/Release/
 ```
-2. Run the provided batch script to execute all test cases:
+3. Run the provided batch script to execute all test cases:
 ```
 ./run.bat
 ```
 All raw results will be written to the `Results/` directory.
 
-3. Process and analyze the results using the provided Python scripts:
+4. Process and analyze the results using the provided Python scripts:
 ```
 ./python ReadData.py # Generates Result.xls 
 ```
@@ -136,7 +159,3 @@ Final Excel reports will appear in the same directory as the Python scripts.
 ## Note
 
 To ensure a fair comparison with existing literature, **we use default algorithm parameters without tuning the `in-out` Benders cut stabilization parameters**. Preliminary tests suggest that simple tuning of these parameters can yield significant performance improvements.
-
-## Support
-
-For support in using this software, submit an [issue](https://github.com/INFORMSJoC/2024.0984/issues/new).
