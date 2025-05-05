@@ -42,15 +42,16 @@ The implementation focuses on solving two classes of fixed-charge nonlinear reso
 
 ## Data
 
-- The GSPP instances are sourced from the [SPP instance library](https://commalab.di.unipi.it/datasets/RDR/).
-- The GUFLP instances are sourced from the [UFL benchmark library](https://resources.mpi-inf.mpg.de/departments/d1/projects/benchmarks/UflLib/).
+* The GSPP instances are sourced from the [SPP instance library](https://commalab.di.unipi.it/datasets/RDR/). We use **all available instances** from this website, as specified in the paper.
+* The GUFLP instances are sourced from the [UFL benchmark library](https://resources.mpi-inf.mpg.de/departments/d1/projects/benchmarks/UflLib/packages.html). Specifically, we use the **Koerkel-Ghosh symmetric**, **Koerkel-Ghosh asymmetric**, and **M\*** large-scale instance sets, which are detailed in the paper.
 
-Please refer to the original websites or our paper for detailed information about the instance authors and sources.
+Please refer to our paper for exact descriptions of the instance sets used. This will help you identify which instances to download.
 
-Due to potential licensing issues related to redistributing benchmark instances, we do **not** include the actual instance files in the `Data` directories of each subproject. Instead, users can download the datasets directly from the original websites and place them into the appropriate folders. For example:
+To avoid potential licensing issues, we do **not** redistribute the actual benchmark instance files. Instead, please download the instances directly from the original sources and place them into the correct directories.  
+For example:
 
-- Copy the `2000-h` series instances for the SPP problem into `./SP/Data/2000-h/`
-- Copy the `ga250` series instances for the UFL problem into `./UFL/Data/`
+- Copy the `2000-h` series instances (e.g., from `lat.tgz`) for the SPP problem into `./SP/Data/2000-h/`
+- Copy the `ga250` series instances (e.g., from `KoerkelGhosh-asym.tbz2`) for the UFL problem into `./UFL/Data/`
 
 This setup will allow the code to run without modification.
 
@@ -153,6 +154,13 @@ The file `Result.xls` contains detailed results for each instance under each alg
 ./python AnalysisData.py # Generates ResultAnalysis.xls
 ```
 The file `ResultAnalysis.xls` provides aggregated statistical summaries for each set of instances, as reported in the paper.
+
+### Folder Explanation
+
+* `Results/`: Stores **all raw output files** from the executables.
+* `Result.xls`: A consolidated Excel file for **easy viewing** of per-instance results.
+* `Results_/`: Contains **renamed raw output files**, categorized by algorithm for analysis.
+* `ResultAnalysis.xls`: Summarized result statistics by algorithm and instance group.
 
 Final Excel reports will appear in the same directory as the Python scripts.
 
