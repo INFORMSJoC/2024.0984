@@ -1,0 +1,18 @@
+Instance: s02_100.rdr;
+RootUpperBound:-631120.558829;RootLowerBound:-631120.558829;RootGap:0.0000;RootRuntime:0.0030;
+Objval:-631120.558829;Gap:0.0000;TotalRuntime:0.0030;Nodes:0;Status:102;
+Instance: s03_100.rdr;
+RootUpperBound:-8618547017.487469;RootLowerBound:-8619528223.632256;RootGap:0.0001;RootRuntime:0.0130;
+Objval:-8618547017.500000;Gap:0.0000;TotalTime:0.3220;Nodes:2657;Status:102
+Instance: s04_100.rdr;
+RootUpperBound:-5321.205588;RootLowerBound:-5321.205588;RootGap:0.0000;RootRuntime:0.0020;
+Objval:-5321.205588;Gap:0.0000;TotalRuntime:0.0020;Nodes:0;Status:102;
+Instance: s05_100.rdr;
+RootUpperBound:-5600.722401;RootLowerBound:-5600.722401;RootGap:0.0000;RootRuntime:0.0060;
+Objval:-5600.722401;Gap:0.0000;TotalRuntime:0.0060;Nodes:0;Status:102;
+Instance: s06_100.rdr;
+RootUpperBound:-86185.470175;RootLowerBound:-86190.570526;RootGap:0.0001;RootRuntime:0.0080;
+Objval:-86185.470175;Gap:0.0001;TotalRuntime:0.0080;Nodes:0;Status:102;
+Instance: s07_100.rdr;
+RootUpperBound:-5387.415830;RootLowerBound:-5387.424456;RootGap:0.0000;RootRuntime:0.0070;
+Objval:-5387.415830;Gap:0.0000;TotalRuntime:0.0070;Nodes:0;Status:102;

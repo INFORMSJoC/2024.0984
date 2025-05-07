@@ -1,0 +1,9 @@
+Instance: p01_100.rdr;
+RootUpperBound:-5625.004711;RootLowerBound:-5625.004711;RootGap:0.0000;RootRuntime:0.0050;
+Objval:-5625.004711;Gap:0.0000;TotalRuntime:0.0050;Nodes:0;Status:102;
+Instance: p02_100.rdr;
+RootUpperBound:-106520.079322;RootLowerBound:-106520.079322;RootGap:0.0000;RootRuntime:0.0060;
+Objval:-106520.079322;Gap:0.0000;TotalRuntime:0.0060;Nodes:0;Status:102;
+Instance: p03_100.rdr;
+RootUpperBound:-15730.271806;RootLowerBound:-15730.546741;RootGap:0.0000;RootRuntime:0.0060;
+Objval:-15730.271806;Gap:0.0000;TotalRuntime:0.0060;Nodes:0;Status:102;
